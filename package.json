@@ -1,0 +1,31 @@
+{
+  "name": "interchain-arbitrage-engine",
+  "version": "1.0.0",
+  "description": "A cross-chain arbitrage analysis engine for detecting price differences between blockchains",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.3.0"
+  },
+  "keywords": [
+    "arbitrage",
+    "defi",
+    "cross-chain",
+    "cryptocurrency",
+    "trading",
+    "blockchain"
+  ],
+  "author": "",
+  "license": "MIT"
+}
